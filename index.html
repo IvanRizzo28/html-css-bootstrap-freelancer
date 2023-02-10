@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="p-3">
+        <div class="container-md">
+            <div class="row">
+                <div class="col">
+                    START BOOTSTRAP
+                </div>
+                <div class="col text-end">
+                    MENU
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="informazioni" class="text-center">
+            <div class="container-md">
+                <img src="img/avatar.svg" alt="">
+                <h1 class="my-4">START BOOTSTRAP</h1>
+                <hr class="w-25 mx-auto">
+                <ul class="d-flex justify-content-center list-unstyled fs-5">
+                    <li class="me-2">GRAPHICS ARTIST</li>
+                    <li class="me-2">-</li>
+                    <li class="me-2">WEB DESIGNER</li>
+                    <li class="me-2">-</li>
+                    <li>ILLUSTRATOR</li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio" class="text-center">
+            <div class="container-md">
+                <h2 class="my-4">PORTFOLIO</h2>
+                <hr class="w-25 mx-auto">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 my-4">
+                        <img src="img/cabin.png" alt="cabin" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-4">
+                        <img src="img/cake.png" alt="cake" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-4">
+                        <img src="img/circus.png" alt="circus" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-4">
+                        <img src="img/game.png" alt="game" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-4">
+                        <img src="img/safe.png" alt="safe" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-4">
+                        <img src="img/submarine.png" alt="submarine" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2 class="my-4 text-center">ABOUT</h2>
+            <hr class="w-25 mx-auto">
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-12 col-md-6 my-4 px-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure soluta, molestias animi harum alias necessitatibus repudiandae voluptas quibusdam, quos neque officia eum perspiciatis non exercitationem ut, adipisci obcaecati totam dolorum!</p>
+                    </div>
+                    <div class="col-12 col-md-6 my-4 px-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure soluta, molestias animi harum alias necessitatibus repudiandae voluptas quibusdam, quos neque officia eum perspiciatis non exercitationem ut, adipisci obcaecati totam dolorum!</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-download"></i> Download</button>
+                </div>
+            </div>
+        </section>
+        <section id="contatti">
+            <h2 class="my-4 text-center">CONCTACT ME</h2>
+            <hr class="w-25 mx-auto">
+            <div class="container-md">
+                <div class="row">
+                    <div class="col-12 my-2 px-5">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="col-12 my-2 px-5">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="col-12 my-2 px-5">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+                    <div class="col-12 my-2 px-5">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <div class="col-12 my-2 px-5">
+                        <button type="button" class="btn btn-success">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-12 col-md-4 my-4">
+                    <h5>LOCATION</h5>
+                    <h5>2215 John Daniel Drive Clark, MO 54243</h5>
+                </div>
+                <div class="col-12 col-md-4 my-4">
+                    <h5 class="mb-3">ARAOUND THE WEB</h5>
+                    <div class="mx-auto w-auto d-flex justify-content-center">
+                        <div class="border border-light rounded-circle _div_circle text-center me-2">1</div>
+                        <div class="border border-light rounded-circle _div_circle text-center me-2">2</div>
+                        <div class="border border-light rounded-circle _div_circle text-center me-2">3</div>
+                        <div class="border border-light rounded-circle _div_circle text-center">4</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-4">
+                    <h5>ABOUT FREELANCER</h5>
+                    <p class="fs-5">Freelance is a free to use, open source Bootstrap theme created by <span class="text-success">Start Bootstrap</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="_footer text-center fs-6 py-5">
+            Copyright @ Your Website 2019
+        </div>
+    </footer>
+</body>
+</html>

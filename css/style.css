@@ -1,0 +1,41 @@
+header{
+    background-color: #2C3E50;
+    color: #fff;
+}
+
+section,footer{
+    padding: 20px 0;
+}
+
+footer{
+    padding-bottom: 0;
+}
+
+section:nth-child(odd){
+    color: #fff;
+    background-color: #1ABC9C;
+}
+
+#informazioni img{
+    height: 200px;
+}
+
+button{
+    color: #fff!important;
+    border-color: #fff!important;
+}
+
+footer{
+    background-color: #3A546D;
+    color: #fff;
+}
+
+._div_circle{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+
+._footer{
+    background-color: #2C3E50;
+}
