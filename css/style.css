@@ -3,6 +3,20 @@ header{
     color: #fff;
 }
 
+nav{
+    background-color: transparent!important;
+    color: #fff;
+}
+
+._color-bianco{
+    color: #fff!important;
+}
+
+.navbar-collapse{
+    flex-basis: 0;
+    flex-grow: 0;
+}
+
 section,footer{
     padding: 20px 0;
 }
